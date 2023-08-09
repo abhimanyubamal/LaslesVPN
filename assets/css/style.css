@@ -35,6 +35,10 @@
     margin-right: auto;
 }
 
+.pt-180 {
+    padding-top: 180px;
+}
+
 .col-12 {
     width: 100%;
     padding: 0 12px;
@@ -94,6 +98,10 @@
 
 .w-50 {
     max-width: 50%;
+}
+
+.w-30 {
+    width: 30%;
 }
 
 .h-100 {
@@ -159,7 +167,11 @@
     margin-bottom: 50px;
 }
 
-.m-60 {
+.ml-50 {
+    margin-left: 50px;
+}
+
+.mt-60 {
     margin-top: 60px;
 }
 
@@ -173,6 +185,10 @@
 
 .ml-35 {
     margin-left: 35px;
+}
+
+.ml-10 {
+    margin-left: 10px;
 }
 
 .pad-80 {
@@ -232,6 +248,26 @@
     transform: translate(-50%, -50%);
 }
 
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.mr-50 {
+    margin-right: 50px;
+}
+
+.mt-120 {
+    margin-top: 120px;
+}
+
 .d-flex {
     display: flex;
 }
@@ -240,8 +276,15 @@
     position: relative;
     border-radius: 10px;
     border: 2px solid #DDD;
-    margin-left: 50px;
     transition: all .5s ease-out;
+}
+
+.card-1 {
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    transition: all .5s ease-out;
+    padding: 30px;
 }
 
 .card:hover {
@@ -375,7 +418,7 @@
     border-radius: 50px;
     border: 1px solid #F53855;
     color: #F53855;
-    padding: 6px 12px;
+    padding: 13px 45px;
     background-color: white;
     transition: all .5s ease-out;
     cursor: pointer;
@@ -385,7 +428,7 @@
     border-radius: 10px;
     border: 1px solid #F53838;
     color: #F53838;
-    padding: 12px 18px;
+    padding: 10px 60px;
     background-color: white;
     transition: all .5s ease-out;
     cursor: pointer;
@@ -489,7 +532,7 @@
         position: fixed;
         left: 0;
         top: -100%;
-        background-color: rgba(0, 0, 0, 0.144);
+        background-color: rgba(0, 0, 0, 0.538);
         transition: all .5s ease-out;
     }
 
@@ -500,8 +543,13 @@
         position: fixed;
         left: 0;
         top: -100%;
-        background-color: rgba(0, 0, 0, 0.144);
+        background-color: rgba(0, 0, 0, 0.538);
         transition: all .5s ease-out;
+    }
+
+    .white-res-text{
+        margin-bottom: 5px;
+        color: #F53855;
     }
 
     .menu-btn:checked~.menu {
@@ -509,7 +557,7 @@
     }
 
     .menu-btn:checked~.menu-2 {
-        top: 95px;
+        top: 119.7px;
     }
 
     .menu-btn:checked~.menu-icon>span {
@@ -530,6 +578,10 @@
         width: 100%;
         padding: 0 12px;
     }
+
+    .pt-md-300 {
+        padding-top: 300px;
+    }
 }
 
 @media (max-width:768px) {
@@ -540,6 +592,17 @@
 
     .col-md-6 {
         width: 50%;
+        padding: 0 12px;
+    }
+
+    .pb-md-200{
+        padding-bottom: 200px;
+    }
+}
+
+@media (max-width:576px) {
+    .col-sm-12 {
+        width: 100%;
         padding: 0 12px;
     }
 }
